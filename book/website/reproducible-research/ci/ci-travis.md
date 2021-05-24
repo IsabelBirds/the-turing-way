@@ -167,7 +167,7 @@ If for any reason this cannot be done an error will be returned and the build wi
 
 The after success section is much like the script section in that it contains commands to run on the project. The key difference if that the build will not fail if steps in the after success section return errors.
 
-The after success section is run after the script, and can be used to automate steps that need to be taken once a build has passed all the tests. Examples of things that can be automated include automatically merging the new version of the project to the master branch in GitHub. Another example is for the code coverage (see testing chapter) to be automatically measured and reported, as shown here:
+The after success section is run after the script, and can be used to automate steps that need to be taken once a build has passed all the tests. Examples of things that can be automated include automatically merging the new version of the project to the main branch in GitHub. Another example is for the code coverage (see testing chapter) to be automatically measured and reported, as shown here:
 ```
 language: python
 python:
